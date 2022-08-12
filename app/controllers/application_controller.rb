@@ -23,6 +23,7 @@ class ApplicationController < Sinatra::Base
       poke_name:params[:poke_name],
       types:params[:types],
       best_move:params[:best_move],
+      image_url:params[:image_url],
       trainer_id:params[:trainer_id]
     )
     pokemon.to_json
