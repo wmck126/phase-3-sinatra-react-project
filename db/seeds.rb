@@ -13,10 +13,10 @@ Gym.create(gym: "Water", location: "Cerulean City")
 Gym.create(gym: "Electric", location: "Vermillion City")
 Gym.create(gym: "Grass", location: "Celadon City")
 
-Pokemon.create(poke_name: "Pikachu", types: "Electric", best_move: "Thunderbolt", trainer_id: 1)
-Pokemon.create(poke_name: "Onix", types: "Rock", best_move: "Rock Slide", trainer_id: 2)
-Pokemon.create(poke_name: "Togepi", types: "Fairy", best_move: "Hustle", trainer_id: 3)
-Pokemon.create(poke_name: "Raichu", types: "Electric", best_move: "Thunderbolt", trainer_id: 4)
-Pokemon.create(poke_name: "Gloom", types: "Grass", best_move: "N/A", trainer_id: 5)
+Pokemon.create(poke_name: "Pikachu", image_url:"https://archives.bulbagarden.net/media/upload/0/0d/025Pikachu.png", types: "Electric", best_move: "Thunderbolt", trainer_id: 1)
+Pokemon.create(poke_name: "Onix", image_url:"https://archives.bulbagarden.net/media/upload/9/9a/095Onix.png", types: "Rock", best_move: "Rock Slide", trainer_id: 2)
+Pokemon.create(poke_name: "Togepi", image_url:"https://archives.bulbagarden.net/media/upload/6/6b/175Togepi.png", types: "Fairy", best_move: "Hustle", trainer_id: 3)
+Pokemon.create(poke_name: "Raichu", image_url:"https://archives.bulbagarden.net/media/upload/8/88/026Raichu.png", types: "Electric", best_move: "Thunderbolt", trainer_id: 4)
+Pokemon.create(poke_name: "Gloom", image_url:"https://archives.bulbagarden.net/media/upload/2/2a/044Gloom.png", types: "Grass", best_move: "N/A", trainer_id: 5)
 
 puts "✅ Done seeding!"

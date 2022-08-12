@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2022_08_09_192414) do
     t.string "types"
     t.string "best_move"
     t.integer "trainer_id"
+    t.string "image_url"
   end
 
   create_table "trainers", force: :cascade do |t|
