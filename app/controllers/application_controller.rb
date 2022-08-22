@@ -3,6 +3,7 @@ class ApplicationController < Sinatra::Base
   
   # Add your routes here
   post '/pokemon' do
+    # binding.pry
     pokemon = Pokemon.create(
       poke_name:params[:poke_name],
       types:params[:types],
